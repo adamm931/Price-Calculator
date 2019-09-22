@@ -1,0 +1,6 @@
+C:\DEV\Price-calculator-kata\PriceCalculatorKata\PriceCalculatorKata\bin\Debug\PriceCalculatorKata.exe.config
+C:\DEV\Price-calculator-kata\PriceCalculatorKata\PriceCalculatorKata\obj\Debug\PriceCalculatorKata.csprojResolveAssemblyReference.cache
+C:\DEV\Price-calculator-kata\PriceCalculatorKata\PriceCalculatorKata\bin\Debug\PriceCalculatorKata.exe
+C:\DEV\Price-calculator-kata\PriceCalculatorKata\PriceCalculatorKata\bin\Debug\PriceCalculatorKata.pdb
+C:\DEV\Price-calculator-kata\PriceCalculatorKata\PriceCalculatorKata\obj\Debug\PriceCalculatorKata.exe
+C:\DEV\Price-calculator-kata\PriceCalculatorKata\PriceCalculatorKata\obj\Debug\PriceCalculatorKata.pdb
