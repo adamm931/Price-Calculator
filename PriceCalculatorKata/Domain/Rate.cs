@@ -17,6 +17,6 @@ namespace PriceCalculatorKata.Domain
         public decimal Percentage { get; }
 
         public override string ToString()
-        => $"{Percentage} %";
+            => $"{Percentage} %";
     }
 }
