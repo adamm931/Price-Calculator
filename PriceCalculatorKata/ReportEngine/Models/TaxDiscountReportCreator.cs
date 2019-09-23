@@ -1,15 +1,14 @@
 ﻿using PriceCalculatorKata.Domain;
-using PriceCalculatorKata.ReportEngine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PriceCalculatorKata.Interfaces
+namespace PriceCalculatorKata.ReportEngine.Models
 {
-    public interface IReporter
+    public class TaxDiscountReportRequest : TaxReportRequest
     {
-        Report GetReport();
+        public Discount Discount { get; set; }
     }
 }

@@ -35,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,21 +45,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Constants.cs" />
     <Compile Include="Domain\Currency.cs" />
     <Compile Include="Domain\Amount.cs" />
     <Compile Include="Domain\Discount.cs" />
-    <Compile Include="Domain\Report.cs" />
+    <Compile Include="Domain\DiscountCollection.cs" />
+    <Compile Include="Domain\Expenses.cs" />
+    <Compile Include="Domain\ProductReport.cs" />
+    <Compile Include="ReportEngine\Creators\ReportCreator.cs" />
+    <Compile Include="ReportEngine\Creators\TaxReportCreator.cs" />
+    <Compile Include="ReportEngine\Exceptions\TemplateKeyNotDefinedException.cs" />
+    <Compile Include="ReportEngine\Models\ReportRequest.cs" />
+    <Compile Include="ReportEngine\Models\TaxDiscountReportCreator.cs" />
+    <Compile Include="ReportEngine\Models\TaxReportRequest.cs" />
+    <Compile Include="ReportEngine\Report.cs" />
     <Compile Include="Domain\Rate.cs" />
     <Compile Include="Domain\Product.cs" />
     <Compile Include="Domain\Price.cs" />
     <Compile Include="Domain\Tax.cs" />
+    <Compile Include="ReportEngine\Exceptions\ReportTemplateNotFoundException.cs" />
     <Compile Include="Extensions\DecimalExtensions.cs" />
     <Compile Include="Interfaces\IReporter.cs" />
     <Compile Include="Presentation\ConsoleHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\PriceWithTaxAndDiscount.cs" />
-    <Compile Include="Service\PriceWithTaxReporter.cs" />
+    <Compile Include="ReportEngine\IReportBuilder.cs" />
+    <Compile Include="ReportEngine\ITemplateProvider.cs" />
+    <Compile Include="ReportEngine\ReportTemplate.cs" />
+    <Compile Include="ReportEngine\ReportBuilder.cs" />
+    <Compile Include="ReportEngine\TemplateProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

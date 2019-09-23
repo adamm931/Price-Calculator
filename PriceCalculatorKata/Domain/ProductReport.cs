@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace PriceCalculatorKata.Domain
 {
-    public class Report
+    public class ProductReport
     {
-        public Report(string content)
-        {
-            this.Content = content;
-        }
-
-        public string Content { get; }
+        public Product Product { get; }
     }
 }
